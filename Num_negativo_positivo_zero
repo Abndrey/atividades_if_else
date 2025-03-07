@@ -1,0 +1,15 @@
+var userNumber = prompt("Digite o primeiro número positivo ou negativo");
+
+console.log(userNumber);
+
+var userNumber1 = prompt("Digite o segundo número positivo ou negativo");
+
+
+var userNumber = 0;
+userNumber = prompt("Digite um número para verificar se é positivo ou negativo: ");
+if(userNumber > 0){
+    alert(`Seu número ${userNumber} é um número positivo!`);
+}
+if(userNumber < 0){
+    alert(`Seu número ${userNumber} é um número negativo!`);
+} 
