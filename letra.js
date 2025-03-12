@@ -1,5 +1,5 @@
 function primLetra(str) {
-    // Verifica se a primeira letra é maiúscula
+    
     if (str.charAt(0) === str.charAt(0).toUpperCase()) {
         console.log("A primeira letra é maiúscula.");
     } else {
@@ -7,6 +7,5 @@ function primLetra(str) {
     }
 }
 
-// Exemplo de uso:
 primLetra("Olá");
 primLetra("olá");
